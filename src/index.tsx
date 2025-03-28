@@ -1,4 +1,4 @@
-import {render} from "tsx5"
+import {render} from "tsx5-base"
 
 
 

@@ -20,6 +20,6 @@
     "jsxFragmentFactory": "Fragment",
 
   },
-  "include": ["src","node_modules/tsx5"],
+  "include": ["src","node_modules/tsx5-base"],
   "exclude": ["node_modules"]
 }

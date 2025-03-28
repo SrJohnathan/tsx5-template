@@ -1,4 +1,4 @@
-import { useEffectDep, useRef, useState} from "tsx5";
+import { useEffectDep, useRef, useState} from "tsx5-base";
 
 
 const Page = () => {
