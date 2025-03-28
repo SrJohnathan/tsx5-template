@@ -13,4 +13,7 @@ Use o comando `npm create vite@latest` (ou `yarn create vite`) com a opção `--
 
 
 ```bash
-npm create vite@latest my-app -- --template SrJohnathan/tsx5-template
+npx degit SrJohnathan/tsx5-template my-project
+cd my-project
+yarn install
+yarn run dev
