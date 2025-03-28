@@ -1,0 +1,72 @@
+/* Estilo moderno e minimalista */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: linear-gradient(90deg, #044c12 0%, #0a2580 100%);
+    color: #333;
+}
+
+#use{}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.container h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #0c1898;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #071339;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(13, 16, 34, 0.4);
+}

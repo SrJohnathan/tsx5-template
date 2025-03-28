@@ -1,0 +1,18 @@
+{
+  "name": "tsx5-template",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "tsx5": "file:tsx5-0.0.18.tgz"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
