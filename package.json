@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "tsx5-base":"^0.0.1"
+    "tsx5-base":"^0.0.2"
   },
   "devDependencies": {
     "typescript": "~5.7.2",
